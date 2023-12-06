@@ -68,7 +68,7 @@ Windows Digital Ocean SSH Setup:
 Download **Full** Cmder tool from: ```https://cmder.app/```
 
 * Open up Cmder and run ```ssh root@ip_addrss_of_your_droplet```
-* You will get a prompt about a fingerprint, just type ```yes``` and hit hinter
+* You will get a prompt about the key not being known by any other name, just type ```yes``` and hit enter
 * You will get a prompt to enter the passphrase you created when setting up your SSH key, please enter that
 * If successful, you will recieve a welcome message from Ubuntu with the version number
 
@@ -76,5 +76,49 @@ Windows Digital Ocean password Setup:
 
 Download **Full** Cmder tool from: ```https://cmder.app/```
 
+* Open up Cmder and run ```ssh root@ip_addrss_of_your_droplet```
+* You will get a prompt about the key not being known by any other name, just type ```yes``` and hit enter
+* You will get a prompt to enter the passphrase you created when setting up your Digital Ocean droplet, please enter that
+* If successful, you will recieve a welcome message from Ubuntu with the version number
 
+## Ubuntu Setup
 
+Now that we have setup our Digital Ocean droplet and are connected to it we have to ready our Ubuntu system and install some prerequisite packages.
+
+* In Cmder run the following command: ```sudo apt update``` This command will update the local packages for our Ubuntu system.
+* Run the command: ```sudo apt install nodejs``` If any prompt comes up type ```Y``` and hit enter.Since our API is going to be written in Javascript we need to install Node.JS for our serverside code
+* Run the command: ```sudo apt install npm``` If any prompt comes up type ```Y``` and hit enter. This might take a while to extract and install. Once you are given a prompt for which service should be restarted just hit ```Enter```. Since our API is going to use Javascript we need the npm tool to install packages required to run our code
+* Run the command: ```sudo npm install -g pm2```. PM2 is a very useful process manager for our Node.js application which will allow us to keep our instance online even when the terminal is closed, monitor our files, log events and automatically restart our service if it crashes.
+
+If you want to confirm the package is installed and the version number of the package you can run the following commands:
+* ```node -v```
+* ```npm -v```
+* ```pm2 -v```
+* ```pm2 list``` - This will list the running processes that are using pm2
+* ```pm2 logs``` - This will check logs for pm2 managed services. Use ```Ctrl+C``` to exit.
+
+## API Directory Setup
+
+In this section we will setup our working directory for the project where ```app.js``` and ```index.html``` will be located. We will also install some additional packages in our working directory that will be required to run the app.
+
+Run the following commands:
+* ```mkdir API``` - This will create a new folder on our system for the API. You can name it what you want if you dont want to call it API
+* ```ls -l``` - Run this command to het a list of directories to confirm the folder you just ran the  command for was created
+* ```cd /root/API``` - We do this to switch our current working directory to the folder we just created
+* ```npm install express``` - Package used for routing and building web apps and API
+* ```npm install cors``` - Package used to allow a server to indicate any origins other than its own from which a browser should permit loading resources
+* ```npm install axios``` - Package used to make API requests
+* ```npm install multer``` - Package used for our file upload feature
+
+Confirm the packages have been installed by running ```ls -l```. You should see 3 files/folders listed: ```node_module```, ```package-lock.json```, and ```package.json```
+
+## API Creation
+
+Now we will create the core file for our API, ```app.js```
+In order to create the file you have to run ```nano app.js``` This will open up the text editor on Cmder. You can choose to write your code through this or use an external source such as Visual Studio Code(reccomended).
+
+A template code is posted above. In order to connect to the Azure API this is where you will need to know the endpoint as well as your API key for proper authentication.
+
+## Webpage Creation
+
+## Errors
