@@ -38,3 +38,7 @@ API Documentation can be found on the Wiki for this repository or by following a
 &emsp;&emsp;[Scripts](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/D.-HTML-Page-Creation#scripts)
 
 [Examples](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/E.-Examples)
+
+[Error Handling](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/F.-Error-Handling)
+
+&emsp;&emsp; [Errors](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/F.-Error-Handling#errors)
