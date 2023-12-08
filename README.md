@@ -9,19 +9,19 @@ The goal of this API is to provide users with the Azure AI Vision services witho
 
 [API Documentation Home](https://github.com/Sylnus/ITIS6177-Final-Project/wiki)
 
-A. [API Hosting](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/A.-Hosting)
+[API Hosting](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/A.-Hosting)
 
 &emsp;&emsp; [Hosting](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/A.-Hosting#hosting)
 
 &emsp;&emsp; [Hosting Authentication](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/A.-Hosting#hosting-authentication)
 
-B. [Azure AI API](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/B.-Azure-AI-Vision-Setup)
+[Azure AI API](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/B.-Azure-AI-Vision-Setup)
 
 &emsp;&emsp; [Azure AI Vision Setup](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/B.-Azure-AI-API#azure-ai-vision-setup)
 
 &emsp;&emsp; [Demo Testing](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/B.-Azure-AI-API#demo-testing)
 
-C. [API Creation](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/C.-API-Creation)
+[API Creation](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/C.-API-Creation)
 
 &emsp;&emsp; [API Creation](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/C.-API-Creation#api-creation)
 
@@ -29,10 +29,10 @@ C. [API Creation](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/C.-API-C
 
 &emsp;&emsp; [Status Code](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/C.-API-Creation#status-code)
 
-D. [HTML Page Creation](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/D.-HTML-Page-Creation)
+[HTML Page Creation](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/D.-HTML-Page-Creation)
 
 &emsp;&emsp;[Index.html Creation](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/D.-HTML-Page-Creation#indexhtml-creation)
 
 &emsp;&emsp;[Scripts](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/D.-HTML-Page-Creation#scripts)
 
-E. [Examples](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/E.-Examples)
+[Examples](https://github.com/Sylnus/ITIS6177-Final-Project/wiki/E.-Examples)
