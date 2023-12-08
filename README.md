@@ -5,6 +5,8 @@ Welcome to the Image Analyzer API!
 API was created to connect to the Microsoft Azure AI Vision API and provide its tagging and image caption services. This API will allow you to setup a connection to the Azure  API as well as a front-end webpage that will allow users to submit a URL to an online image or upload an image manually.
 The goal of this API is to provide users with the Azure AI Vision services without requiring authentication or configuration for the Microsoft Service.
 
+API Documentation can be found on the Wiki for this repository or by following any of the links below from the ToC.
+
 # Table of Content
 
 [API Documentation Home](https://github.com/Sylnus/ITIS6177-Final-Project/wiki)
